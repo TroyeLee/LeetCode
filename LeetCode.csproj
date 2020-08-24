@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{642F624E-87DF-4E36-9E2D-37319E002161}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LeetCode</RootNamespace>
+    <AssemblyName>LeetCode</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArrayAndString\ArrayPartitionI.cs" />
+    <Compile Include="ArrayAndString\DiagonalTraverse.cs" />
+    <Compile Include="ArrayAndString\FindMinimumInRotatedSortedArray.cs" />
+    <Compile Include="ArrayAndString\FindPivotIndex.cs" />
+    <Compile Include="ArrayAndString\ImplementStrstr.cs" />
+    <Compile Include="ArrayAndString\LongestCommonPrefixCS.cs" />
+    <Compile Include="ArrayAndString\LongestPalindromicSubstring.cs" />
+    <Compile Include="ArrayAndString\MaxConsecutiveOnes.cs" />
+    <Compile Include="ArrayAndString\MergeIntervals.cs" />
+    <Compile Include="ArrayAndString\MinimumSizeSubarraySum.cs" />
+    <Compile Include="ArrayAndString\MoveZeroesCS.cs" />
+    <Compile Include="ArrayAndString\PascalsTriangle.cs" />
+    <Compile Include="ArrayAndString\PascalsTriangleII.cs" />
+    <Compile Include="ArrayAndString\RemoveDuplicatesFromSortedArray.cs" />
+    <Compile Include="ArrayAndString\RemoveElementCS.cs" />
+    <Compile Include="ArrayAndString\ReverseStringCS.cs" />
+    <Compile Include="ArrayAndString\ReverseWordsInAString.cs" />
+    <Compile Include="ArrayAndString\ReverseWordsInAStringIII.cs" />
+    <Compile Include="ArrayAndString\RotateMatrixLcci.cs" />
+    <Compile Include="ArrayAndString\SearchInsertPosition.cs" />
+    <Compile Include="ArrayAndString\TwoSumIIInputArrayIsSorted.cs" />
+    <Compile Include="ArrayAndString\ZeroMatrixLcci.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueueStack\BinaryTreeInorderTraversal.cs" />
+    <Compile Include="QueueStack\CloneGraphCS.cs" />
+    <Compile Include="QueueStack\DailyTemperaturesCS.cs" />
+    <Compile Include="QueueStack\DecodeStringCS.cs" />
+    <Compile Include="QueueStack\EvaluateReversePolishNotation.cs" />
+    <Compile Include="QueueStack\MinStack.cs" />
+    <Compile Include="QueueStack\MyCircularQueue.cs" />
+    <Compile Include="QueueStack\MyQueue.cs" />
+    <Compile Include="QueueStack\MyStack.cs" />
+    <Compile Include="QueueStack\NumberOfIslandsBFS.cs" />
+    <Compile Include="QueueStack\NumberOfIslandsDFS.cs" />
+    <Compile Include="QueueStack\OpenTheLock.cs" />
+    <Compile Include="QueueStack\PerfectSquares.cs" />
+    <Compile Include="QueueStack\TargetSum.cs" />
+    <Compile Include="QueueStack\ValidParentheses.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
