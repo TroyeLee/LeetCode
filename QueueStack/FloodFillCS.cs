@@ -22,6 +22,7 @@ namespace LeetCode.QueueStack
         /// <returns></returns>
         public int[][] FloodFill(int[][] image, int sr, int sc, int newColor)
         {
+            //利用广度优先搜索的思想完成
             int[][] result = image;
             if (image.Length == 0)
             {
@@ -39,20 +40,22 @@ namespace LeetCode.QueueStack
                 new int[] {0,-1}
             };
             Queue<int> queue = new Queue<int>();
+            //将位置入队，码成 x * cols + y,可解码成xy
             queue.Enqueue(sr * cols + sc);
 
             while (queue.Count > 0)
             {
+                //位置出队，并解码
                 int cur = queue.Dequeue();
                 int curX = cur / cols;
                 int curY = cur % cols;
 
+                //判断当前位置是否为旧颜色，是则替换成新颜色
                 if (result[curX][curY]==oldColor)
                 {
                     result[curX][curY] = newColor;
-                    visited[curX, curY] = true;
                 }
-
+                //遍历四个位置，如果是旧颜色，则入队，否则不入队
                 for (int i = 0; i < 4; i++)
                 {
                     int newX = curX + direction[i][0];
