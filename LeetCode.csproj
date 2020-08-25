@@ -64,6 +64,7 @@
     <Compile Include="ArrayAndString\TwoSumIIInputArrayIsSorted.cs" />
     <Compile Include="ArrayAndString\ZeroMatrixLcci.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="LinkedList\MyLinkedList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueueStack\01Matrix.cs" />
     <Compile Include="QueueStack\BinaryTreeInorderTraversal.cs" />
@@ -84,5 +85,6 @@
     <Compile Include="QueueStack\TargetSum.cs" />
     <Compile Include="QueueStack\ValidParentheses.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
