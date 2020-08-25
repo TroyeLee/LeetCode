@@ -65,12 +65,14 @@
     <Compile Include="ArrayAndString\ZeroMatrixLcci.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueueStack\01Matrix.cs" />
     <Compile Include="QueueStack\BinaryTreeInorderTraversal.cs" />
     <Compile Include="QueueStack\CloneGraphCS.cs" />
     <Compile Include="QueueStack\DailyTemperaturesCS.cs" />
     <Compile Include="QueueStack\DecodeStringCS.cs" />
     <Compile Include="QueueStack\EvaluateReversePolishNotation.cs" />
     <Compile Include="QueueStack\FloodFillCS.cs" />
+    <Compile Include="QueueStack\KeysAndRooms.cs" />
     <Compile Include="QueueStack\MinStack.cs" />
     <Compile Include="QueueStack\MyCircularQueue.cs" />
     <Compile Include="QueueStack\MyQueue.cs" />
