@@ -69,6 +69,9 @@
     <Compile Include="LinkedList\LinkedListCycleII.cs" />
     <Compile Include="LinkedList\ListNode.cs" />
     <Compile Include="LinkedList\MyLinkedList.cs" />
+    <Compile Include="LinkedList\MyLinkedListDouble.cs" />
+    <Compile Include="LinkedList\OddEvenLinkedList.cs" />
+    <Compile Include="LinkedList\PalindromeLinkedList.cs" />
     <Compile Include="LinkedList\RemoveLinkedListElements.cs" />
     <Compile Include="LinkedList\RemoveNthNodeFromEndOfList.cs" />
     <Compile Include="LinkedList\ReverseLinkedList.cs" />

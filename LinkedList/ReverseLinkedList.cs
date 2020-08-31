@@ -8,6 +8,12 @@ namespace LeetCode.LinkedList
 {
     public class ReverseLinkedList
     {
+        /// <summary>
+        /// 反转链表
+        /// 反转一个单链表。
+        /// </summary>
+        /// <param name="head"></param>
+        /// <returns></returns>
         public ListNode ReverseList(ListNode head)
         {
             if (head == null)
