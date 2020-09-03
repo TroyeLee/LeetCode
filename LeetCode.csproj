@@ -64,6 +64,8 @@
     <Compile Include="ArrayAndString\TwoSumIIInputArrayIsSorted.cs" />
     <Compile Include="ArrayAndString\ZeroMatrixLcci.cs" />
     <Compile Include="CommonUtil.cs" />
+    <Compile Include="HashTable\MyHashMap.cs" />
+    <Compile Include="HashTable\MyHashSet.cs" />
     <Compile Include="LinkedList\AddTwoNumbersCS.cs" />
     <Compile Include="LinkedList\CopyListWithRandomPointer.cs" />
     <Compile Include="LinkedList\FlattenAMultilevelDoublyLinkedList.cs" />
