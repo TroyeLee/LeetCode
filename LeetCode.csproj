@@ -81,6 +81,7 @@
     <Compile Include="LinkedList\RemoveLinkedListElements.cs" />
     <Compile Include="LinkedList\RemoveNthNodeFromEndOfList.cs" />
     <Compile Include="LinkedList\ReverseLinkedList.cs" />
+    <Compile Include="LinkedList\RotateList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueueStack\01Matrix.cs" />
     <Compile Include="QueueStack\BinaryTreeInorderTraversal.cs" />

@@ -23,6 +23,7 @@ namespace LeetCode.LinkedList
         /// <returns></returns>
         public NodeRandom CopyRandomList(NodeRandom head)
         {
+            //迭代法
             if(head == null)
             {
                 return null;
@@ -34,7 +35,7 @@ namespace LeetCode.LinkedList
             }
 
             NodeRandom result = new NodeRandom(head.val);
-            visited.Add(result, head);
+            visited.Add(head, result);
 
             result.next = CopyRandomList(head.next);
             result.random = CopyRandomList(head.random);
