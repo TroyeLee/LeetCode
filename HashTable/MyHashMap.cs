@@ -142,7 +142,9 @@ namespace LeetCode.HashTable
                 int step = Contains(data[index], key);
                 if (step >= 0)
                 {
-                    data[index].RemoveAt(step);
+                    int end = data[index].Count - 1;
+                    (data[index])[step] = data[index][end];
+                    data[index].RemoveAt(end);
                 }
             }
         }
