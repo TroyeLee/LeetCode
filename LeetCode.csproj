@@ -67,9 +67,12 @@
     <Compile Include="HashTable\ContainsDuplicateCS.cs" />
     <Compile Include="HashTable\HappyNumber.cs" />
     <Compile Include="HashTable\IntersectionOfTwoArrays.cs" />
+    <Compile Include="HashTable\IsomorphicStrings.cs" />
+    <Compile Include="HashTable\MinimumIndexSumOfTwoLists.cs" />
     <Compile Include="HashTable\MyHashMap.cs" />
     <Compile Include="HashTable\MyHashSet.cs" />
     <Compile Include="HashTable\SingleNumberCS.cs" />
+    <Compile Include="HashTable\TwoSumCs.cs" />
     <Compile Include="LinkedList\AddTwoNumbersCS.cs" />
     <Compile Include="LinkedList\CopyListWithRandomPointer.cs" />
     <Compile Include="LinkedList\FlattenAMultilevelDoublyLinkedList.cs" />
