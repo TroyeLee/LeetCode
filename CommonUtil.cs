@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace LeetCode
@@ -18,6 +19,13 @@ namespace LeetCode
             foreach (var word in words)
             {
                 char head = Char.ToUpper(word[0]);
+
+                if(MatchRome(word))
+                {
+                    result.Append(word.ToUpper());
+                    continue;
+                }
+
                 string tail = word.Substring(1);
                 result.Append(head+tail);
 
@@ -40,5 +48,14 @@ namespace LeetCode
             return result.next;
         }
 
+        public bool MatchRome(string word)
+        {
+            Regex regex = new Regex(@"\b[ivx][ivx]*\b");
+            if (regex.IsMatch(word))
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }
