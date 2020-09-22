@@ -66,6 +66,7 @@
     <Compile Include="CommonUtil.cs" />
     <Compile Include="HashTable\ContainsDuplicateCS.cs" />
     <Compile Include="HashTable\ContainsDuplicateII.cs" />
+    <Compile Include="HashTable\FindDuplicateSubtrees.cs" />
     <Compile Include="HashTable\FirstUniqueCharacterInAString.cs" />
     <Compile Include="HashTable\GroupAnagramsCS.cs" />
     <Compile Include="HashTable\HappyNumber.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="HashTable\MyHashMap.cs" />
     <Compile Include="HashTable\MyHashSet.cs" />
     <Compile Include="HashTable\SingleNumberCS.cs" />
+    <Compile Include="HashTable\TreeNode.cs" />
     <Compile Include="HashTable\TwoSumCs.cs" />
     <Compile Include="HashTable\ValidSudoku.cs" />
     <Compile Include="LinkedList\AddTwoNumbersCS.cs" />
