@@ -73,6 +73,8 @@
     <Compile Include="HashTable\IntersectionOfTwoArrays.cs" />
     <Compile Include="HashTable\IntersectionOfTwoArraysII.cs" />
     <Compile Include="HashTable\IsomorphicStrings.cs" />
+    <Compile Include="HashTable\JewelsAndStones.cs" />
+    <Compile Include="HashTable\LongestSubstringWithoutRepeatingCharacters.cs" />
     <Compile Include="HashTable\MinimumIndexSumOfTwoLists.cs" />
     <Compile Include="HashTable\MyHashMap.cs" />
     <Compile Include="HashTable\MyHashSet.cs" />
