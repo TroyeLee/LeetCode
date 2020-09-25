@@ -79,7 +79,9 @@
     <Compile Include="HashTable\MinimumIndexSumOfTwoLists.cs" />
     <Compile Include="HashTable\MyHashMap.cs" />
     <Compile Include="HashTable\MyHashSet.cs" />
+    <Compile Include="HashTable\RandomizedSet.cs" />
     <Compile Include="HashTable\SingleNumberCS.cs" />
+    <Compile Include="HashTable\TopKFrequentElements.cs" />
     <Compile Include="HashTable\TreeNode.cs" />
     <Compile Include="HashTable\TwoSumCs.cs" />
     <Compile Include="HashTable\ValidSudoku.cs" />
