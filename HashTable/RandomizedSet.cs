@@ -17,14 +17,13 @@ namespace LeetCode.HashTable
     {
 
         /** Initialize your data structure here. */
-        IDictionary<int, int> index_value;
+        
         IDictionary<int, int> value_index;
-        int size;
+        IList<int> data;
         public RandomizedSet()
         {
-            index_value = new Dictionary<int, int>();
             value_index = new Dictionary<int, int>();
-            size = 0;
+            data = new List<int>();
         }
 
         /** Inserts a value to the set. Returns true if the set did not already contain the specified element. */
@@ -34,40 +33,51 @@ namespace LeetCode.HashTable
             {
                 return false;
             }
-            index_value.Add(size, val);
-            value_index.Add(val, size);
-            size++;
+            value_index.Add(val, data.Count);
+            data.Add(val);
             return true;
         }
 
         /** Removes a value from the set. Returns true if the set contained the specified element. */
         public bool Remove(int val)
         {
-            if (!value_index.ContainsKey(val))
+            if (!value_index.ContainsKey(val)||data.Count==0)
             {
                 return false;
             }
-            if (size == 1) {
+            if (data.Count == 1) {
                 value_index.Remove(val);
-                index_value.Remove(0);
+                data.RemoveAt(0);
+                return true;
             }
             int index = value_index[val];
             value_index.Remove(val);
 
-            int last_val = index_value[size-1];
+            int last_index = data.Count - 1;
+            if (index == last_index)
+            {
+                data.RemoveAt(last_index);
+                return true;
+            }
+
+                int last_val = data[last_index];
             value_index[last_val] = index;            // 将最后一位替换到remove的位置
 
-            index_value[index] = index_value[size-1]; // 将最后一位替换到remove的位置
-            index_value.Remove(size-1);               // remove最后一位
-            size--;
+            data[index] = last_val; // 将最后一位替换到remove的位置
+            data.RemoveAt(last_index);               // remove最后一位
+
             return true;
         }
 
         /** Get a random element from the set. */
         public int GetRandom()
         {
-            int index = new Random().Next(0,size);
-            return index_value[index];
+            if (data.Count == 0)
+            {
+                return -1;
+            }
+            int index = new Random().Next(0,data.Count);
+            return data[index];
         }
     }
 }
