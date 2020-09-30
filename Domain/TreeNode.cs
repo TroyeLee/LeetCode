@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode.HashTable
+namespace LeetCode.Domain
 {
       //Definition for a binary tree node.
     public class TreeNode

@@ -64,6 +64,13 @@
     <Compile Include="ArrayAndString\TwoSumIIInputArrayIsSorted.cs" />
     <Compile Include="ArrayAndString\ZeroMatrixLcci.cs" />
     <Compile Include="CommonUtil.cs" />
+    <Compile Include="DataStructureBinaryTree\BinaryTreeInorderTraversal.cs" />
+    <Compile Include="DataStructureBinaryTree\BinaryTreePostorderTraversal.cs" />
+    <Compile Include="DataStructureBinaryTree\BinaryTreePreorderTraversal.cs" />
+    <Compile Include="Domain\ListNode.cs" />
+    <Compile Include="Domain\Node.cs" />
+    <Compile Include="Domain\NodeRandom.cs" />
+    <Compile Include="Domain\TreeNode.cs" />
     <Compile Include="HashTable\4sumII.cs" />
     <Compile Include="HashTable\ContainsDuplicateCS.cs" />
     <Compile Include="HashTable\ContainsDuplicateII.cs" />
@@ -82,7 +89,6 @@
     <Compile Include="HashTable\RandomizedSet.cs" />
     <Compile Include="HashTable\SingleNumberCS.cs" />
     <Compile Include="HashTable\TopKFrequentElements.cs" />
-    <Compile Include="HashTable\TreeNode.cs" />
     <Compile Include="HashTable\TwoSumCs.cs" />
     <Compile Include="HashTable\ValidSudoku.cs" />
     <Compile Include="LinkedList\AddTwoNumbersCS.cs" />
@@ -91,12 +97,9 @@
     <Compile Include="LinkedList\IntersectionOfTwoLinkedLists.cs" />
     <Compile Include="LinkedList\LinkedListCycle.cs" />
     <Compile Include="LinkedList\LinkedListCycleII.cs" />
-    <Compile Include="LinkedList\ListNode.cs" />
     <Compile Include="LinkedList\MergeTwoSortedLists.cs" />
     <Compile Include="LinkedList\MyLinkedList.cs" />
     <Compile Include="LinkedList\MyLinkedListDouble.cs" />
-    <Compile Include="LinkedList\Node.cs" />
-    <Compile Include="LinkedList\NodeRandom.cs" />
     <Compile Include="LinkedList\OddEvenLinkedList.cs" />
     <Compile Include="LinkedList\PalindromeLinkedList.cs" />
     <Compile Include="LinkedList\RemoveLinkedListElements.cs" />

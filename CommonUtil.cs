@@ -1,4 +1,5 @@
-﻿using LeetCode.LinkedList;
+﻿using LeetCode.Domain;
+using LeetCode.LinkedList;
 using System;
 using System.Collections.Generic;
 using System.Linq;

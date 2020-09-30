@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode.LinkedList
+namespace LeetCode.Domain
 {
     /// <summary>
     /// 多级双向链表节点

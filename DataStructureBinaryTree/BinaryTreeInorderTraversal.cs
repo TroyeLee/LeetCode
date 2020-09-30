@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode.QueueStack
+namespace LeetCode.DataStructureBinaryTree
 {
     public class BinaryTreeInorderTraversal
     {
@@ -79,8 +79,5 @@ namespace LeetCode.QueueStack
 
             return result;
         }
-
     }
-
-    
 }
