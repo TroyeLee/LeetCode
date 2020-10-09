@@ -65,8 +65,12 @@
     <Compile Include="ArrayAndString\ZeroMatrixLcci.cs" />
     <Compile Include="CommonUtil.cs" />
     <Compile Include="DataStructureBinaryTree\BinaryTreeInorderTraversal.cs" />
+    <Compile Include="DataStructureBinaryTree\BinaryTreeLevelOrderTraversal.cs" />
     <Compile Include="DataStructureBinaryTree\BinaryTreePostorderTraversal.cs" />
     <Compile Include="DataStructureBinaryTree\BinaryTreePreorderTraversal.cs" />
+    <Compile Include="DataStructureBinaryTree\MaximumDepthOfBinaryTree.cs" />
+    <Compile Include="DataStructureBinaryTree\PathSum.cs" />
+    <Compile Include="DataStructureBinaryTree\SymmetricTree.cs" />
     <Compile Include="Domain\ListNode.cs" />
     <Compile Include="Domain\Node.cs" />
     <Compile Include="Domain\NodeRandom.cs" />

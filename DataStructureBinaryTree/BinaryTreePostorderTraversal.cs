@@ -46,7 +46,10 @@ namespace LeetCode.DataStructureBinaryTree
         public IList<int> PostorderTraversal2(TreeNode root)
         {
             IList<int> result = new List<int>();
-
+            if (root == null)
+            {
+                return result;
+            }
             Stack<TreeNode> stack = new Stack<TreeNode>();
             HashSet<TreeNode> visited = new HashSet<TreeNode>();
             TreeNode node = root;
@@ -71,35 +74,6 @@ namespace LeetCode.DataStructureBinaryTree
                 else
                 {
                     stack.Push(node.left);
-                }
-            }
-
-            return result;
-        }
-
-        /// <summary>
-        /// 递归法2
-        /// </summary>
-        /// <param name="root"></param>
-        /// <returns></returns>
-        public IList<int> PostorderTraversal3(TreeNode root)
-        {
-            IList<int> result = new List<int>();
-
-            Stack<TreeNode> stack = new Stack<TreeNode>();
-            TreeNode node = root;
-            while (node != null || stack.Count > 0)
-            {
-                while (node != null)
-                {
-                    stack.Push(node);
-                    node = node.left;
-                }
-                node = stack.Peek().right;
-                if(node == null)
-                {
-                    node = stack.Pop();
-                    result.Add(node.val);
                 }
             }
 
