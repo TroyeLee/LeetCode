@@ -69,10 +69,12 @@
     <Compile Include="DataStructureBinaryTree\BinaryTreePostorderTraversal.cs" />
     <Compile Include="DataStructureBinaryTree\BinaryTreePreorderTraversal.cs" />
     <Compile Include="DataStructureBinaryTree\ConstructBinaryTreeFromInorderAndPostorderTraversal.cs" />
+    <Compile Include="DataStructureBinaryTree\ConstructBinaryTreeFromPreorderAndInorderTraversal.cs" />
     <Compile Include="DataStructureBinaryTree\MaximumDepthOfBinaryTree.cs" />
     <Compile Include="DataStructureBinaryTree\PathSum.cs" />
     <Compile Include="DataStructureBinaryTree\SymmetricTree.cs" />
     <Compile Include="Domain\ListNode.cs" />
+    <Compile Include="Domain\MultilevelNode.cs" />
     <Compile Include="Domain\Node.cs" />
     <Compile Include="Domain\NodeRandom.cs" />
     <Compile Include="Domain\TreeNode.cs" />

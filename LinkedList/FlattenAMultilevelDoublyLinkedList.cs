@@ -17,21 +17,21 @@ namespace LeetCode.LinkedList
         /// </summary>
         /// <param name="head"></param>
         /// <returns></returns>
-        public Node Flatten(Node head)
+        public MultilevelNode Flatten(MultilevelNode head)
         {
             if (head == null)
             {
                 return null;
             }
-            Node curNode = head;
-            Node result = curNode;
+            MultilevelNode curNode = head;
+            MultilevelNode result = curNode;
 
             while (curNode != null)
             {
                 if (curNode.child != null)
                 {
-                    Node childHead = curNode.child;
-                    Node childTail = GetChildEnd(childHead);
+                    MultilevelNode childHead = curNode.child;
+                    MultilevelNode childTail = GetChildEnd(childHead);
                     curNode.child = null;//断子
 
                     if (curNode.next != null)//连接尾
@@ -54,7 +54,7 @@ namespace LeetCode.LinkedList
             return result;
         }
 
-        private Node GetChildEnd(Node data)
+        private MultilevelNode GetChildEnd(MultilevelNode data)
         {
             while (data.next != null)
             {
@@ -68,14 +68,14 @@ namespace LeetCode.LinkedList
         /// </summary>
         /// <param name="head"></param>
         /// <returns></returns>
-        public Node Flatten02(Node head)
+        public MultilevelNode Flatten02(MultilevelNode head)
         {
             if (head == null)
             {
                 return null;
             }
 
-            Node result = new Node();
+            MultilevelNode result = new MultilevelNode();
 
             result.next = head;
             head.prev = result;
@@ -86,7 +86,7 @@ namespace LeetCode.LinkedList
             return result.next;
         }
         //深度遍历寻找尾巴，顺便建立关系
-        private Node Flatten_DFS(Node prev, Node curr)
+        private MultilevelNode Flatten_DFS(MultilevelNode prev, MultilevelNode curr)
         {
             if (curr == null)
             {
@@ -95,10 +95,10 @@ namespace LeetCode.LinkedList
             prev.next = curr;
             curr.prev = prev;
 
-            Node tempNext = curr.next;
+            MultilevelNode tempNext = curr.next;
 
 
-            Node tail = Flatten_DFS(curr, curr.child);
+            MultilevelNode tail = Flatten_DFS(curr, curr.child);
 
             curr.child = null;
 
