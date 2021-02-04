@@ -49,6 +49,8 @@
     <Compile Include="ArrayAndString\LongestCommonPrefixCS.cs" />
     <Compile Include="ArrayAndString\LongestPalindromicSubstring.cs" />
     <Compile Include="ArrayAndString\MaxConsecutiveOnes.cs" />
+    <Compile Include="ArrayAndString\MaximumAverageSubarrayI.cs" />
+    <Compile Include="ArrayAndString\MedianOfTwoSortedArrays.cs" />
     <Compile Include="ArrayAndString\MergeIntervals.cs" />
     <Compile Include="ArrayAndString\MinimumSizeSubarraySum.cs" />
     <Compile Include="ArrayAndString\MoveZeroesCS.cs" />
@@ -56,11 +58,13 @@
     <Compile Include="ArrayAndString\PascalsTriangleII.cs" />
     <Compile Include="ArrayAndString\RemoveDuplicatesFromSortedArray.cs" />
     <Compile Include="ArrayAndString\RemoveElementCS.cs" />
+    <Compile Include="ArrayAndString\ReverseInteger.cs" />
     <Compile Include="ArrayAndString\ReverseStringCS.cs" />
     <Compile Include="ArrayAndString\ReverseWordsInAString.cs" />
     <Compile Include="ArrayAndString\ReverseWordsInAStringIII.cs" />
     <Compile Include="ArrayAndString\RotateMatrixLcci.cs" />
     <Compile Include="ArrayAndString\SearchInsertPosition.cs" />
+    <Compile Include="ArrayAndString\SlidingWindowMedian.cs" />
     <Compile Include="ArrayAndString\TwoSumIIInputArrayIsSorted.cs" />
     <Compile Include="ArrayAndString\ZeroMatrixLcci.cs" />
     <Compile Include="CommonUtil.cs" />
@@ -72,6 +76,8 @@
     <Compile Include="DataStructureBinaryTree\ConstructBinaryTreeFromPreorderAndInorderTraversal.cs" />
     <Compile Include="DataStructureBinaryTree\MaximumDepthOfBinaryTree.cs" />
     <Compile Include="DataStructureBinaryTree\PathSum.cs" />
+    <Compile Include="DataStructureBinaryTree\PopulatingNextRightPointersInEachNode.cs" />
+    <Compile Include="DataStructureBinaryTree\PopulatingNextRightPointersInEachNodeII.cs" />
     <Compile Include="DataStructureBinaryTree\SymmetricTree.cs" />
     <Compile Include="Domain\ListNode.cs" />
     <Compile Include="Domain\MultilevelNode.cs" />

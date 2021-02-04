@@ -39,5 +39,43 @@ namespace LeetCode.ArrayAndString
 
             return result;
         }
+
+        public int PivotIndex2(int[] nums)
+        {
+            int result = -1;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                bool IsLeftEqulesRight = CompareSumOfLeftAndRight(nums, i);
+                if (IsLeftEqulesRight)
+                {
+                    result = i;
+                }
+            }
+
+
+            return result;
+        }
+
+        private bool CompareSumOfLeftAndRight(int[] nums,int index)
+        {
+            int sumOfLeft = 0;
+            int sumOfRight = 0;
+            for (int left = index - 1 , right = index+1; left >= 0 || right < nums.Length ;)
+            {
+                if(left >= 0)
+                {
+                    sumOfLeft += nums[left--];
+                }
+                if(right < nums.Length)
+                {
+                    sumOfRight += nums[right++];
+                }
+            }
+
+            return sumOfLeft==sumOfRight;
+        }
+
+
+
     }
 }
