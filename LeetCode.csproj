@@ -45,6 +45,7 @@
     <Compile Include="ArrayAndString\DiagonalTraverse.cs" />
     <Compile Include="ArrayAndString\FindMinimumInRotatedSortedArray.cs" />
     <Compile Include="ArrayAndString\FindPivotIndex.cs" />
+    <Compile Include="ArrayAndString\GetEqualSubstringsWithinBudget.cs" />
     <Compile Include="ArrayAndString\ImplementStrstr.cs" />
     <Compile Include="ArrayAndString\LongestCommonPrefixCS.cs" />
     <Compile Include="ArrayAndString\LongestPalindromicSubstring.cs" />
